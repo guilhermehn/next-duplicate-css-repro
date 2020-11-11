@@ -1,3 +1,16 @@
+## Steps to reproduce
+
+- npm ci
+- npm run build
+- npm start
+- inspect Button component
+
+When [Button](./components/Button) is used by [\_app.js](./pages/_app.js) and a [page](./pages/index.js) it's css is duplicated.
+
+![](./image.png)
+
+A [page without Button](./pages/no-button.js) does not have duplicated css for Button.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
